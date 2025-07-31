@@ -1,1 +1,119 @@
 THIS IS THE TASK TO ADD THE HTML DOCUMENT IN THIS REPO
+
+this is my upadated html documrnt
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mathu Sri - Resume</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background: #f5f5f5;
+      color: #333;
+    }
+    .container {
+      max-width: 900px;
+      margin: 20px auto;
+      background: #fff;
+      padding: 20px 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    h1, h2, h3 {
+      color: #1d3557;
+      margin-bottom: 10px;
+    }
+    .contact p {
+      margin: 4px 0;
+    }
+    .section {
+      margin-bottom: 20px;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    ul li::before {
+      content: "• ";
+      color: #457b9d;
+      font-weight: bold;
+    }
+    .skills span {
+      display: inline-block;
+      background: #e9ecef;
+      margin: 4px;
+      padding: 6px 10px;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Mathu Sri</h1>
+      <div class="contact">
+        <p><strong>Phone:</strong> 7904202959</p>
+        <p><strong>Email:</strong> 727823tucs151@skct.edu.in</p>
+        <p><strong>Address:</strong> 4/69-1 Ellamma Kothur, Gandhinagar, Hosur, Krishnagiri</p>
+      </div>
+    </header>
+
+    <section class="section profile">
+      <h2>Profile</h2>
+      <p>Dedicated and enthusiastic second-year Computer Science Engineering student with a passion for software development, web technologies, and problem-solving. Experienced in building web applications using React.js, working with databases, and implementing basic machine learning models. Actively seeking opportunities to apply technical skills and contribute to innovative projects.</p>
+    </section>
+
+    <section class="section skills">
+      <h2>Skills</h2>
+      <span>React.js</span>
+      <span>Web Development</span>
+      <span>UI/UX Design (Adobe XD, Figma)</span>
+      <span>Machine Learning Basics</span>
+      <span>Database Management</span>
+      <span>Cloud Computing</span>
+    </section>
+
+    <section class="section experience">
+      <h2>Experience</h2>
+      <h3>Hackathon Participant</h3>
+      <ul>
+        <li>Developed innovative solutions for smart home appliances and resource conservation.</li>
+        <li>Gained hands-on experience in team collaboration, problem-solving, and rapid prototyping.</li>
+      </ul>
+
+      <h3>Technical SnapTalk Presenter</h3>
+      <ul>
+        <li>Delivered a presentation on the Adobe XD Designer tool, sharing design principles and UI/UX best practices with peers.</li>
+        <li>Engaged the audience with practical demonstrations, enhancing understanding of user-centered design.</li>
+      </ul>
+
+      <h3>Workshop Attendee</h3>
+      <ul>
+        <li>Attended workshops on Artificial Intelligence and cloud computing, gaining exposure to modern web technologies and deployment strategies.</li>
+        <li>Built projects using React.js and other frameworks during hands-on sessions.</li>
+      </ul>
+
+      <h3>Event Participation</h3>
+      <ul>
+        <li>Participated in coding competitions and developer meetups.</li>
+        <li>Networked with industry professionals to stay updated with the latest trends in technology.</li>
+      </ul>
+    </section>
+
+    <section class="section education">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>Sri Krishna College Of Technology</strong> (2023-2027) - Bachelor of Engineering in Computer Science</li>
+        <li><strong>St. Augustein Matriculation Hr. Sec. School</strong> (2021-2023) - Higher Secondary School</li>
+        <li><strong>Parimalam Matriculation School</strong> (2011-2021) - Secondary School</li>
+      </ul>
+    </section>
+  </div>
+</body>
+</html>
